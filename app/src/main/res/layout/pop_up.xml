@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        app:cardBackgroundColor="@color/colorAccent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/sethour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                     android:textSize="15dp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="112dp" />
+                <EditText
+                    android:id="@+id/setminat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="194dp"
+                    tools:layout_editor_absoluteY="112dp" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/setbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Set alarm"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>
+
+
+

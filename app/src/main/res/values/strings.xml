@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TimerApp</string>
+    <string name="hh">HH</string>
+    <string name="droptable">\"DROP TABLE \"</string>
+</resources>
